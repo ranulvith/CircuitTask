@@ -124,6 +124,7 @@ def get_ports_location(piece,output,frame_tilt,angle,show=False):
             print('fm is down')
             inp, waves, out = (piece.x2,piece.y1), (piece.x2,piece.y1+2), (piece.x2,piece.y2)
         return (inp, waves, out) 
+
     if piece.type == 'mc':
         imgHSV = de_tilt(imgHSV,angle)
         mask = get_mask([8,57,33,88,182,168],imgHSV) # masking to be tuned
@@ -144,6 +145,7 @@ def get_ports_location(piece,output,frame_tilt,angle,show=False):
             print('mc is up')
             trigger, inp, hold, waves, out = (piece.x1,piece.y2),(piece.x1,piece.y1+2),(piece.x1,piece.y1),(piece.x2,piece.y2),(piece.x2,piece.y1)
         return (trigger, inp, hold, waves, out) 
+        
     if piece.type == 'led':
         mask = get_mask([0,0,95,91,124,209],imgHSV) # masking to be tuned
         result = cv2.bitwise_and(frame_focus, frame_focus, mask=mask)
