@@ -4,7 +4,7 @@ The skills to be evaluated are:
 *   Piece Picking Skills
     *  (Skill 1) When a LED should be used
     *  (Skill 2) When a FM Radio receiver should be used
-    *  (Skill 3) A Buzzrer should be used
+    *  (Skill 3) A Buzzer should be used
     *  (Skill 4) A Switch should be used
     *  (Skill 5) A Reed Switch should be used
     *  (Skill 6) A Push Button Switch should be used
@@ -22,7 +22,7 @@ The skills to be evaluated are:
     *  (skill 15) How to power an FM
     *  (skill 16) How to change the signal on the FM
 *   Closing skills
-    *  (skill 17) That the circuit should be a circuit
+    *  (skill 17) That the circuit should be a closed circuit
 *   Gate skills
     *  (skill 18) How to create an AND gate
     *  (skill 19) How to create an OR gate

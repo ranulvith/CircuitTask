@@ -134,10 +134,10 @@ closed_circuit = ClosingSkill("simple_closed", "closing")
 # * (skill 19) How to create an AND gate
 and_gate = GateSkill("and_gate", "gate", "and")
 
-# * (skill 120) How to create an OR gate
+# * (skill 20) How to create an OR gate
 or_gate = GateSkill("or_gate", "gate", "or")
 
-# * (skill 21) How to create an NOT gate
+# * (skill 21) How to create a NOT gate
 not_gate = GateSkill("not_gate", "gate", "not")
 
 all_skills = [sk_led, sk_FM,sk_buzzer,sk_switch, sk_reed, sk_button,sk_lamp, sk_battery, sk_speaker, sk_music, sk_motor,sk_cp, sk_dir_led, power_mc, signal_mc, power_fm, signal_fm, closed_circuit,and_gate,or_gate,not_gate]
